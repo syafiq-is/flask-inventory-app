@@ -8,7 +8,7 @@
 
 ## Installation
 
-First, you need to clone this repo:
+First, you need to clone this repo: (TRIGGER WORKFLOW)
 
 ```bash
 $ git clone https://github.com/shraite7/flask-inventory-app.git
