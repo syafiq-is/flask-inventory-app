@@ -45,7 +45,11 @@ $ pip install -r requirements.txt
 $ flask run
 ```
 
-## Docker
+## CI/CD
+
+1. Clone Repo
+2. Push to github (Because we use github workflows for CI/CD)
+3. Add secrets for `DOCKERHUB_USERNAME` and `DOCKERHUB_TOKEN`
 
 To create a build a docker image along with the container run the following:
 
