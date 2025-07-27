@@ -1,0 +1,9 @@
+services:
+  web:
+    build: .
+    ports:
+      - "5000:5000"
+    volumes:
+      - ./inventory.db:/app/inventory.db
+    environment:
+      - FLASK_ENV=development
